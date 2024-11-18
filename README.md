@@ -5,4 +5,6 @@ In this repository the melting temperature for tantlum is caluated and is estima
 
 The common neighbor analysis alogorithm in LAMMPS is used to predict the final structure of the simulation. The melting temperature is estimated to be the point at which approximately 50% of the simulation cell remains in the BCC structure and 50% remains as a liquid structure after being allowed to evolve under the NPT ensemble.
 
+This code was used mainly as a demonstration and could probably be improved upon
+
 ![alt text](Plotting/bcc_fraction_bar.png)
