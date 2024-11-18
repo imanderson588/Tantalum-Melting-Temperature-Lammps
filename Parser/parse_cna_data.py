@@ -38,4 +38,4 @@ for temp in temps:
     # The length of the number will need to be updated 
     # based on temperatures used
     parsed_data = pd.DataFrame(percentage_bcc, index=time_steps)
-    parsed_data.to_csv(f'../Parsed Data/parsed_cna_{file_path[19:24]}.csv', sep=' ', index=True, header=False)
+    parsed_data.to_csv(f'../Parsed Data/parsed_cna_{file_path[19:23]}.csv', sep=' ', index=True, header=False)
